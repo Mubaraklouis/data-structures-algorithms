@@ -11,12 +11,10 @@ arr[2]=arr[1];
 arr[1]=arr[0];
 arr[0]=10
 
-
-for(let i = 0; i < arr.length; i++) {
-
-  
-    console.log(arr[i]);
+const arrLength = arr.length;
 
 
-
+for (let i = arrLength-1; i >=0; i--) {
+    console.log(arr[i]);    
 }
+
