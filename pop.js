@@ -17,11 +17,25 @@ function customPop(arr){
     }
     return newArr;
 }
+
+
+
+function efficientPop(arr){
+    if(arr.length ===0){
+        return arr
+    }
+    arr.length--;
+
+    return arr;
+}
+
 function verifyPop(){
     const arr = [1,3,7]
     const result =customPop(arr);
+    const result2 = efficientPop(arr)
 
     console.log(result);
+    console.log(result2)
 }
 
 verifyPop()
