@@ -15,7 +15,7 @@ function binarySearch(arr, target) {
         return binarySearch(arr.slice(midpoint + 1), target);
     } else {
         // **Pass the updated "last" value to the NEXT recursive call**
-        return binarySearch(arr.slice(0, midpoint)), target);
+        return binarySearch(arr.slice(0, midpoint),target);
     }
 }
 
