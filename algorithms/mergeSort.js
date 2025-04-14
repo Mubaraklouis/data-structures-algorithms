@@ -1,10 +1,5 @@
 
 
-// arr.length =Math.floor((arr.length)/2)
-
-// console.log(arr)
-
-
 function merge(left,right){
 
     let i =0;
@@ -47,27 +42,11 @@ function mergeSort(arr){
      const [leftArray,rightArray] = split(arr)
 
 
-    //  console.log(leftArray)
-    //  console.log(rightArray)
-    
-
-
-    //  console.log(left)
-
-
-    //  return merge(left,right)
-
 }
-
-
-
 
 const arr = [1,4,5,1,3,7,8,6]
 
-
 // splitDestructive(arr);
 const result = mergeSort(arr)
-
-
 
 console.log(result)
