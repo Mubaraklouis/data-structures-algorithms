@@ -13,9 +13,6 @@ for (let i = arrLength-1; i >=0; i--) {
 }
 }
 
-
-
-
 function plusOne(arr){
     let lastIndex= arr.length-1;
     lastElement = arr[lastIndex]

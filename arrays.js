@@ -11,9 +11,7 @@ function insertFirst(arr,num){
     const arrLength = arr.length;  //O(1)
     let lastIndex = arrLength - 1; //O(1)  
     let newIndex = lastIndex + 1;  //O(1)
-    arr[newIndex]=arr[lastIndex];  //O(1)
-
-    //in total this is O(1)
+    arr[newIndex]=arr[lastIndex];  //O(1
 
 for (let i = arrLength-1; i >=0; i--) {
     if (i === 0) {
@@ -27,7 +25,6 @@ for (let i = arrLength-1; i >=0; i--) {
 
 //deu to loop the travasal of the array depends on the size of the aray if n elements in array 
 //O(n)
-
 
 //total time complexity: O(n)
 
